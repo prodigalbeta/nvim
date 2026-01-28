@@ -5,6 +5,8 @@ vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=2")
 vim.cmd("set conceallevel=2")
+vim.opt.linebreak = true
+vim.opt.wrap = true
 
 vim.keymap.set('n', 'K', vim.lsp.buf.hover, { silent = true, noremap = true })
 
